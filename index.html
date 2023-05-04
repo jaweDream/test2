@@ -13,11 +13,7 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         console.log(Telegram.webAppInitData)
-        function setThemeClass() {
-            document.documentElement.className = Telegram.WebApp.colorScheme;
-        }
-        Telegram.WebApp.onEvent('themeChanged', setThemeClass);
-        setThemeClass();
+        
     </script>
     <style>
         body {
